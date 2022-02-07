@@ -24,13 +24,6 @@ class Table extends React.Component {
       );
     console.log(countriesData.length);
     return countriesData.map(country => (
-      //   if (country.timezone[0] == -1 || 1) {
-      //     row.backgroundColor = "blue";
-      //   }
-      //   else {
-      //     return 0
-      // }
-
       <tr id="row">
         <td>{country.name}</td>
         <td>{country.capital}</td>
